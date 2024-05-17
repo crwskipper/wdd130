@@ -116,6 +116,7 @@ nav a:hover {
 }
 
 .history img {
+    margin: auto 0;
     width: auto;
     height: 250px;
 }
