@@ -15,10 +15,10 @@ body {
     --heading-font: 'Bebas Neue', serif;
     --paragraph-font: 'Montserrat', serif;
 
-    --nav-background-color: #134266;
-    --nav-link-color: #ffffff;
-    --nav-hover-link-color: #fce172;
-    --nav-hover-background-color: #78c5d7;
+    --nav-background-color: #ffffff;
+    --nav-link-color: hsl(238, 52%, 26%);
+    --nav-hover-link-color: #4f9bbb;
+    --nav-hover-background-color: #ffffff;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -26,9 +26,21 @@ h1,h2,h3,h4,h5,h6 {
     color: var(--primary-color);
 }
 
+.title {
+    background-color: #a7dae5;
+    padding: 3px 10px;
+}
+
 header {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
     padding: 20px;
     background-color: var(--accent1-color);
+}
+
+header img {
+    height: 150px;
+    width: auto;
 }
 
 p {
@@ -36,9 +48,10 @@ p {
 }
 
 nav {
+    display: flex;
+    align-self: flex-end;
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
-    display: flex;
 }
 
 nav a {
@@ -46,6 +59,7 @@ nav a {
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
+    margin: auto;
 }
 
 nav a:link, nav a:visited {
@@ -97,7 +111,43 @@ nav a:hover {
     color: #ffffff;
 }
 
+.history {
+    display: flex;
+}
+
+.history img {
+    width: auto;
+    height: 250px;
+}
+
+.gallery {
+    display: flex;
+}
+
+.gallery figure {
+    margin: 6px;
+}
+
+.gallery figure img {
+    width: auto;
+    height: 100px;
+}
+
+footer {
+    display: flex;
+    margin-top: 30px;
+}
+
+footer div {
+    margin-left: auto;
+    align-content: center;
+}
 
 footer a {
     text-decoration: none;
+}
+
+footer a img {
+    height: 50px;
+    width: auto;
 }
