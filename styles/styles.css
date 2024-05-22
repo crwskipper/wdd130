@@ -42,7 +42,7 @@ h1 {
     margin: 0;
     padding: 20px 0;
     color: #00539f;
-    text-shadow: 3px 3px 1px black;
+    text-shadow: 3px 1px 1px rgb(171, 169, 169);
     border-bottom: 1px solid rgb(0, 0, 0);
   }
 
@@ -54,7 +54,7 @@ h1 {
 
   .grid {
   display: grid;
-  align-items: center;
+  align-items: left;
 }
 
 main {
@@ -69,14 +69,16 @@ main {
  }
 
 aside img {
-    width: 200px;
+    width: 130px;
     height: auto;
+    align-items: right;
 }
 
 aside h2 {
   position: absolute;
-  top: 47px;
-  left: 150px;
+  top: 15px;
+  left: 125px;
+  text-align: center;
 }
 
   p,
