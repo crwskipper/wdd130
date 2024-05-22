@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+    font-size: 1em;
+    color: #fff;
+    background: #6f8fb3;
+}
+
+:root {
+    --primary-color: #134266;
+    --secondary-color: #78c5d7;
+    --accent1-color: #9bc9f6;
+    --accent2-color: #ffffff;
+
+    --heading-font: 'Bebas Neue', serif;
+    --paragraph-font: 'Montserrat', serif;
+
+    --nav-background-color: #3badde;
+    --nav-link-color: #ffffff;
+    --nav-hover-link-color: #fce172;
+    --nav-hover-background-color: #78c5d7;
+}
+
+header {
+    margin: 20px;
+    width: 650px;
+    background-color: var(--accent1-color);
+}
+
+h1 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    margin: 2rem;
+    text-align: center;
+}
+
+form {
+width: 650px;
+margin: 0 auto;
+padding: 1rem;
+border: 2px solid rgba(0, 0, 0, 0.1);
+border-radius: 0.5rem;
+background-color: #134266;
+display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    margin: 1rem;
+    border: 1px solid rgba (0,0,0, 0.3);
+    padding: 1rem;
+}
+
+legend {
+    padding: 1px;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+label, input, button, select, textarea {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: .5rem;
+    font-size: 1.1rem;   
+}
+
+input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: .5rem;
+    background-color: #9bc9f6;
+    color:#134266;
+    border: none;
+    border-radius: .5rem;
+    padding: .5rem;
+    font-size: 1rem;
+
+}
+
+button:hover {
+    background-color: #f8f3df;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #fff;
+    border-top: 1px solid;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: .5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: .5rem 0;
+}
+
