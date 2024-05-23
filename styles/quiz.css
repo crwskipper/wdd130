@@ -70,7 +70,7 @@ label, input, button, select, textarea {
 }
 
 label {
-    text-align: right;
+    text-align: left;
     padding-right: 1rem;
 }
 
@@ -115,12 +115,5 @@ footer {
 }
 
 .column1 {
-    grid-template-columns: 3fr 1fr;
     margin: .5rem 0;
 }
-
-.column2 {
-    grid-template-columns: 1fr 2fr;
-    margin: .5rem 0;
-}
-
