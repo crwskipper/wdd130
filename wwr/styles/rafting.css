@@ -152,3 +152,85 @@ footer a img {
     height: 50px;
     width: auto;
 }
+
+/* Contact Form */
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #e5e8eb;
+    display: grid;
+    }
+    
+    fieldset {
+        display: grid;
+        grid-gap: 0.5rem;
+        margin: 1rem;
+        border: 1px solid rgba(0,0,0, 0.3);
+        padding: 1rem;
+    }
+    
+    legend {
+        padding: 1px;
+        color: #fff;
+        font-size: 1.5em;
+    }
+    
+    label, input, button, select, textarea {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    label {
+        text-align: left;
+        padding-right: 1rem;
+    }
+    
+    input, select, textarea {
+        padding: .5rem;
+        font-size: 1.1rem;   
+    }
+    
+    input[type="checkbox"] {
+        width: 30px;
+        height: 30px;
+        vertical-align: bottom;
+    }
+    
+    button {
+        margin: .5rem;
+        background-color: var(--primary-color);
+        color:#ffffff;
+        border: none;
+        border-radius: .5rem;
+        padding: .5rem;
+        font-size: 1rem;
+    
+    }
+    
+    button:hover {
+        background-color: #f8f3df;
+    }
+
+    .form-item {
+        display: grid;
+        align-items: center;
+    }
+    
+    .column1 {
+        margin: .5rem 0;
+    }
+
+    .contact {
+        display: flex;
+    }
+
+    .info {
+
+    }
+
+    .map {
+        width: 200px;
+        height:auto;
+    }
