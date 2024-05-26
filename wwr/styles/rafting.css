@@ -26,6 +26,10 @@ h1,h2,h3,h4,h5,h6 {
     color: var(--primary-color);
 }
 
+#contactus-h1 {
+    text-align: center;
+}
+
 .title {
     background-color: #a7dae5;
     padding: 3px 10px;
@@ -293,4 +297,5 @@ form {
     .map {
         width: 300px;
         height:auto;
+        border: 0;
     }
