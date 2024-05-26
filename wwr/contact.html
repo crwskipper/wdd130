@@ -24,7 +24,7 @@
     </header>
     <main>
         <section>
-            <div class="gallery">
+            <div class="gallery employee">
                 <figure>
                     <img src="images/employee2.jpg" alt="picture of founder">
                     <figcaption>Founder</figcaption>
@@ -40,29 +40,37 @@
             </div>
         </section>
         <section class="contact">
-            <div>
+            <div class="form-container">
+                <h2>Send us a message</h2>
+                <p>Send us a message and we'll respond within 24 hours.</p>
                 <form>
                     <fieldset>
                     <div class="form-item column1">
-                        <label for="q1">1. What does HTML stand for? :</label>
-                        <input type="text" id="q1" name="q1">
+                        <label for="fullname">Full Name</label>
+                        <input type="text" id="fullname" name="fullname" placeholder="Type full name here">
                     </div>
                     <div class="form-item column1">
-                        <label for="q2">2. What is the basic structure of an HTML document?:</label>
-                        <textarea id="q2" name="q2" rows="4" placeholder=""></textarea>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Type email here">
                     </div>
                     <div class="form-item column1">
-                        <label for="q3">3. Which element is included in the head?</label>
-                        <select id="q3" name="q3">
-                            <option value="" selected disabled>Choose One ...</option>
-                            <option value="meta">meta</option>
-                            <option value="footer">footer</option>
-                            <option value="nav">nav</option>
-                        </select>
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}">
+                    </div>
+                    <div class="form-radio">
+                        <input type="radio" id="general" name="general">
+                        <label for="general">General Inquiry</label>
+                        <input type="radio" id="reservation" name="reservation">
+                        <label for="reservation">Reservation Question</label>
+                        <input type="radio" id="website" name="website">
+                        <label for="website">Website Suggestion</label>
                     </div>
                     <div class="form-item column1">
-                        <label for="q4">4. How many head elements can you have in your HTML? :</label>
-                        <input type="number" id="q4" name="q4">
+                        <textarea id="message" name="message" rows="4" placeholder="Type your message here"></textarea>
+                    </div>
+                    <div class="form-checkbox">
+                        <input type="checkbox" id="subscribe" name="subscribe">
+                        <label for="subscribe">Please subscribe me to the monthly newsletter</label>
                     </div>
                     </fieldset>
                     <button type="submit">Submit Quiz</button>
@@ -70,15 +78,15 @@
             </div>
             <div class="info">
                 <h2>Contact Information</h2>
-                <p>Adress</p>
-                <p>Phone</p>
-                <p>Email</p>
-                <div><iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27485.83057101303!2d-110.70750696215353!3d43.604624981203365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53530fe335ea3d45%3A0x3252c9dbaac6965a!2sJackson%20Hole!5e0!3m2!1sen!2sus!4v1716611940041!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                <p>555 Jackson Drive Ste 303</p>
+                <p>contact-us@dryoarrafting.com</p>
+                <p>801.555-5567</p>
+                <div class="map-container"><iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27485.83057101303!2d-110.70750696215353!3d43.604624981203365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53530fe335ea3d45%3A0x3252c9dbaac6965a!2sJackson%20Hole!5e0!3m2!1sen!2sus!4v1716611940041!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
             </div>
         </section>
     </main>
     <footer>
-        <p>&#169; 2024 | Dry Oar Rafting Co. | Crystal Carlson</p>
+        <p>&#169; 2024 | Dry Oar Rafting Co. | Crystal Carlson | <a href="https://app.moqups.com/yjGeM1vD6EFzG50jOSJqz2aBbtsucdVU/view/page/a29d6f3c2">Wireframe</a></p>
         <div>
             <a href="https://www.facebook.com/"><img src="images/facebook.webp" alt="Facebook Logo"></a>
             <a href="https://www.instagram.com/"><img src="images/instagram.webp" alt="Instagram Logo"></a>

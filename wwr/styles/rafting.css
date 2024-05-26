@@ -134,6 +134,15 @@ nav a:hover {
     height: 100px;
 }
 
+.employee {
+    align-items: center;
+    justify-content: center;
+}
+
+.employee figcaption {
+    text-align: center;
+}
+
 footer {
     display: flex;
     margin-top: 30px;
@@ -154,13 +163,26 @@ footer a img {
 }
 
 /* Contact Form */
+.form-container {
+    margin-top: 10px;
+}
+
+.form-container h2 {
+    margin: 1.5rem 2rem .5rem;
+    padding: 0;
+    font-size: 1.8rem;
+}
+
+.form-container p {
+    margin: 0 2rem;
+    padding: 0;
+}
+
 form {
-    width: 650px;
+    width: 550px;
     margin: 0 auto;
     padding: 1rem;
-    border: 2px solid rgba(0, 0, 0, 0.1);
-    border-radius: 0.5rem;
-    background-color: #e5e8eb;
+
     display: grid;
     }
     
@@ -217,6 +239,20 @@ form {
         display: grid;
         align-items: center;
     }
+
+    .form-radio label {
+        font-size: .8rem;
+    }
+
+    .form-checkbox input {
+        width: 20px;
+        margin: 0;
+    }
+
+    .form-checkbox label {
+        margin-bottom: 3px;
+        padding: 0;
+    }
     
     .column1 {
         margin: .5rem 0;
@@ -224,13 +260,37 @@ form {
 
     .contact {
         display: flex;
+        background-color: #e5e8eb;
+        border: 2px solid rgba(0, 0, 0, 0.1);
+        border-radius: 0.5rem;
     }
 
     .info {
+        margin: 10px auto;
 
     }
 
+    .info p {
+        margin: 10px 0;
+        padding: 0;
+
+    }
+
+    .info h2 {
+        border-bottom: 1px solid black;
+        margin: 1.5rem 0;
+        padding-bottom: 20px;
+        text-align: center;
+        font-size: 1.8rem;
+        
+    }
+
+    .map-container {
+        border-top: 1px solid black;
+        padding-top: 20px;
+    }
+
     .map {
-        width: 200px;
+        width: 300px;
         height:auto;
     }
