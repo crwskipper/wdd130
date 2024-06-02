@@ -1,98 +1,153 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dry Oar Rafting Co. | Trips</title>
-    <meta name="description" content= "Oar River Rafting Company Trip Options.">
-    <meta name="author" content="Crystal Carlson">
-    <link href="styles/rafting.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta
+      name="description"
+      content="Dry Oar River Rafting Company trip options."
+    />
+    <meta name="author" content="Crystal Carlson" >
+    <link href="styles/rafting.css" rel="stylesheet" >
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-        <img src="images/logo.png" alt="Rafting Site Log">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact Us</a>
-        </nav>
+      <img src="images/logo.png" alt="Rafting Site Log" >
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="trips.html">Trips</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
     </header>
     <main>
-        <h1 id="contactus-h1">Contact Us</h1>
-        <section>
-            <div class="gallery employee">
-                <figure>
-                    <img src="images/employee2.jpg" alt="picture of founder">
-                    <figcaption>Founder</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/employee1.jpg" alt="picture of guide">
-                    <figcaption>Guide</figcaption>
-                </figure>          
-                <figure>
-                    <img src="images/employee3.jpg" alt="picture of organizer">
-                    <figcaption>Trip Organizer</figcaption>
-                </figure>
+      <section>
+        <div class="inner-container">
+          <h2 class="title">Jackson Hole, Snake River WY</h2>
+          <div class="info-bar">
+            <img src="images/jacksontrip.jpg" alt="Empty Boats" >
+            <p>
+              Experience the thrill of rafting the Snake River in Jackson Hole,
+              surrounded by the breathtaking Tetons. Our expert guides navigate
+              you through exhilarating rapids while you marvel at the stunning
+              wilderness and diverse wildlife. Whether seeking adventure or
+              nature's tranquility, this journey promises unforgettable moments.
+            </p>
+          </div>
+        </div>
+        <div class="inner-container">
+          <h2 class="title">Clear Creek, CO</h2>
+          <div class="info-bar">
+            <p>
+              Embark on an exhilarating adventure on Clear Creek, Colorado's
+              premier whitewater rafting destination. Experience the rush of
+              thrilling rapids while surrounded by stunning Rocky Mountain
+              scenery. Our expert guides ensure a safe and unforgettable journey
+              through this adrenaline-fueled river.
+            </p>
+            <img src="images/clearcreektrip.jpg" alt="Empty Boats" >
+          </div>
+        </div>
+        <div class="inner-container">
+          <h2 class="title">Salmon River ID</h2>
+          <div class="info-bar">
+            <img src="images/salmonrivertrip.jpg" alt="Empty Boats" >
+            <p>
+              Experience the exhilaration of rafting the Salmon River in Idaho's
+              untamed wilderness. Known as the 'River of No Return,' it offers
+              thrilling rapids, stunning scenery, and abundant wildlife. Our
+              expert guides ensure a safe and unforgettable adventure through
+              rugged canyons and pristine landscapes.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="inner-container">
+        <div class="package-container">
+          <h2 class="title">What's Included</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Jackson Hole</th>
+                <th>Clear Creek</th>
+                <th>Salmon River</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Lunch Included</td>
+                <td>Lunch Included</td>
+                <td>Lunch Included</td>
+              </tr>
+              <tr>
+                <td>Shuttle Ride</td>
+                <td>Shuttle Ride</td>
+                <td>No Shuttle Ride</td>
+              </tr>
+              <tr>
+                <td>Group Photo</td>
+                <td>Group Photo</td>
+                <td>Group Photo</td>
+              </tr>
+              <tr>
+                <td>Experienced Guide</td>
+                <td>Experienced Guide</td>
+                <td>Experienced Guide</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      <section class="inner-container">
+        <div id="callImg">
+          <div id="call-details-container">
+            <div id="call-details">
+              <p class="coloroverlay">
+                Ready to embark on the adventure of a lifetime? Book your
+                rafting trip today and experience the thrill of conquering wild
+                rivers, surrounded by breathtaking scenery and guided by
+                experienced professionals. Don't miss out on the ultimate
+                outdoor experience – reserve your spot now and create memories
+                that will last a lifetime!
+              </p>
+              <a href="contact.html">
+                <button>BOOK NOW</button>
+              </a>
             </div>
-        </section>
-        <section class="contact">
-            <div class="form-container">
-                <h2>Send us a message</h2>
-                <p>Send us a message and we'll respond within 24 hours.</p>
-                <form>
-                    <fieldset>
-                    <div class="form-item column1">
-                        <label for="fullname">Full Name</label>
-                        <input type="text" id="fullname" name="fullname" placeholder="Type full name here">
-                    </div>
-                    <div class="form-item column1">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="Type email here">
-                    </div>
-                    <div class="form-item column1">
-                        <label for="phone">Phone</label>
-                        <input type="tel" id="phone" name="phone" placeholder="Phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}">
-                    </div>
-                    <div class="form-radio">
-                        <input type="radio" id="general" name="general">
-                        <label for="general">General Inquiry</label>
-                        <input type="radio" id="reservation" name="reservation">
-                        <label for="reservation">Reservation Question</label>
-                        <input type="radio" id="website" name="website">
-                        <label for="website">Website Suggestion</label>
-                    </div>
-                    <div class="form-item column1">
-                        <textarea id="message" name="message" rows="4" placeholder="Type your message here"></textarea>
-                    </div>
-                    <div class="form-checkbox">
-                        <input type="checkbox" id="subscribe" name="subscribe">
-                        <label for="subscribe">Please subscribe me to the monthly newsletter</label>
-                    </div>
-                    </fieldset>
-                    <button type="submit">Send Message</button>
-                </form>
-            </div>
-            <div class="info">
-                <h2>Contact Information</h2>
-                <p>555 Jackson Drive Ste 303</p>
-                <p>contact-us@dryoarrafting.com</p>
-                <p>801.555-5567</p>
-                <div class="map-container"><iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27485.83057101303!2d-110.70750696215353!3d43.604624981203365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53530fe335ea3d45%3A0x3252c9dbaac6965a!2sJackson%20Hole!5e0!3m2!1sen!2sus!4v1716611940041!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-            </div>
-        </section>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
-        <p>&#169; 2024 | Dry Oar Rafting Co. | Crystal Carlson | <a href="https://app.moqups.com/yjGeM1vD6EFzG50jOSJqz2aBbtsucdVU/view/page/a29d6f3c2">Wireframe</a></p>
-        <div>
-            <a href="https://www.facebook.com/"><img src="images/facebook.webp" alt="Facebook Logo"></a>
-            <a href="https://www.instagram.com/"><img src="images/instagram.webp" alt="Instagram Logo"></a>
-            <a href="https://twitter.com/"><img src="images/twitter.webp" alt="Twitter Logo"></a>
-        </div>
+      <p>
+        &#169; 2024 | Dry Oar Rafting Co. | Crystal Carlson |
+        <a
+          href="https://app.moqups.com/yjGeM1vD6EFzG50jOSJqz2aBbtsucdVU/view/page/a666081ec"
+          >Wireframe</a
+        >
+      </p>
+      <div>
+        <a href="https://www.facebook.com/"
+          ><img src="images/facebook.webp" alt="Facebook Logo"
+        /></a>
+        <a href="https://www.instagram.com/"
+          ><img src="images/instagram.webp" alt="Instagram Logo"
+        /></a>
+        <a href="https://twitter.com/"
+          ><img src="images/twitter.webp" alt="Twitter Logo"
+        /></a>
+      </div>
     </footer>
   </body>
 </html>
