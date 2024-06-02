@@ -153,7 +153,7 @@ nav a:hover {
   margin-top: 5px;
 }
 
-#home-details button {
+#home-details .custom-button {
   float: right;
   width: 150px;
   height: 50px;
@@ -181,12 +181,15 @@ nav a:hover {
 }
 
 #call-details {
+  display: flex;
   padding-top: 7.5vw;
   color: #ffffff;
   max-width: 500px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  flex-flow: column;
+  align-items: center;
 }
 
 #call-details h1 {
@@ -202,7 +205,8 @@ nav a:hover {
   margin-top: 5px;
 }
 
-#call-details button {
+#call-details .custom-button {
+  display: block;
   width: 200px;
   height: 75px;
   font-size: 1.5rem;
@@ -551,4 +555,27 @@ table tfoot tr {
   background: #4c5760;
   color: #e8e9f3;
   font-size: 11px;
+}
+
+/* Custom Button */
+
+.custom-button {
+  align-content: center;
+  text-align: center;
+  text-decoration: none;
+  margin: 0;
+  background-color: var(--primary-color);
+  color: #ffffff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0;
+  font-size: 1rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  width: 10px;
+  height: 10px;
+}
+
+.custom-button:hover {
+  background-color: var(--nav-hover-link-color);
 }
